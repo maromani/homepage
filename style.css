@@ -8,32 +8,47 @@ section{
     background-color: white;
 }
 
-h1 {
-    color: blue
+.h1 {
+    color: blue;
+    
 }
 
-h2 {
+.h1-a {
+    color: blue
+}
+.h2 {
     color: crimson
 }
 
-.h2 {
-    color: yellowgreen
+.h2-a {
+    color: crimson
 }
-h3 {
+
+.h3 {
     color: black
 }
 
-p {
-    color: indigo
+.h3-a {
+    color: black
 }
+
+.h4 {
+    color: yellowgreen
+}
+
+.h4-a {
+    color: yellowgreen
+}
+
 
 .p {
     color: green
 }
 
-h4 {
-    color: yellowgreen
+.p-a {
+    color: green
 }
+
 
 article {
     color: #8d351f
@@ -46,21 +61,23 @@ article {
 
 
 a {
-    color:orange ;
+    color:pink ;
 }
 
 nav a {
     color: green;
 }
 
-
-
 .a{
     color:red;
 
 }
 
-footer{
+.footer{
     color:orange;
     background-color: black;
+}
+
+.footer-a{
+    color:orange;
 }
