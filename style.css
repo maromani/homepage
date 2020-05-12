@@ -1,0 +1,73 @@
+
+body{
+    background-color: grey;
+    color: gold;
+}
+
+section{
+    background-color: white;
+}
+
+h1 {
+    color: blue
+}
+
+h2 {
+    color: crimson
+}
+
+.h2 {
+    color: yellowgreen
+}
+h3 {
+    color: black
+}
+
+p {
+    color: indigo
+}
+
+.p {
+    color: green
+}
+
+h4 {
+    color: yellowgreen
+}
+
+article {
+    color: #8d351f
+}
+
+.page-top {
+        color:rgb(112, 156, 123);
+        background-color: black;
+}
+
+#page-top {
+    color: white;
+    background-color: brown;
+}
+
+
+a {
+    color:orange ;
+}
+
+nav a {
+    color: green;
+}
+
+#a {
+    color:blue;
+}
+
+.a{
+    color:red;
+
+}
+
+footer{
+    color:orange;
+    background-color: black;
+}
