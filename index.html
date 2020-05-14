@@ -8,95 +8,113 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-	<header class="main-header" id="page-top">
-		<nav>
-			<a class="a" href="index.html">Strona główna</a>
-			<a class="a" href="dziennik.html">Dziennik nauki</a>
-			<a class="a" href="komunikacja.html">Komunikacja publiczna</a>
+<body class="body">
+	<header  id="page-top">
+		<nav class="navigation">
+			
+				<a class="navigation__link navigation__link--current" href="index.html">Strona główna</a>
+				<a class="navigation__link" href="dziennik.html">Dziennik nauki</a>
+				<a class="navigation__link" href="komunikacja.html">Komunikacja publiczna</a>
+			
 		</nav>
 	</header>
 	<main>
 		<header>
-			<h1 class="h1"> To strona domowa Marcina Romaniuka robiona w ramach kursu WTF. <a class="h1-a" href="#pamietnik"> Tu więcej o WTF	</a>
+			<h1 class="header"> To strona domowa Marcina Romaniuka robiona w ramach kursu WTF. <a class="header__link"
+					href="#nauka_wtf"> Tu więcej o WTF </a>
 			</h1>
 
 		</header>
 		<section>
-			<h2 class="h2"> Kim jestem</h2>
-			<p class="p"> Szczęśliwym mężem i tatą. Mieszkam pod Lublinem weraz z żoną, synem i mieszka z nami jeszcze
+			<article class="article__main article__main--js">
+			<h2 class="article__title"> Kim jestem</h2>
+			<p class="article__description"> Szczęśliwym mężem i tatą. Mieszkam pod Lublinem wraz z żoną, synem i mieszka z nami jeszcze
 				sunia Stefa. <br>
-				<img src="img\autor.jpg" alt="autor">
+				
+				<img class="article__img" src="img\autor.jpg" alt="autor">
+				
 			</p>
-
-			<h2 class="h2">Gdzie pracuję</h2>
-			<p class="p">Na co dzień pracuję w IT <b>od 20 lat</b>. Zaczynałem jako programista SQL. <br>
+			</article>	
+			<article class="article article1--js">
+			<h2 class="article__title">Gdzie pracuję</h2>
+			<p class="article__description">Na co dzień pracuję w IT <b>od 20 lat</b>. Zaczynałem jako programista SQL. <br>
 				Teraz jestem odpowiedzialny za wdrożenia systemów.</p>
-			<article>
-				<h2 class="h2">Co lubię robić poza pracą</h2>
+			</article>
+			<article class=" article article2--js">
+				<h2 class="article__title">Co lubię robić poza pracą</h2>
 
-				<h3 class="h3">Moje hobby to <i>autobusy, tramwaje i pociągi</i></h3>
-				<p class="p">Od dziecka te sprzęty mnie pasjonowały. <a class="p-a"href="komunikacja.html">Więcej o komunikacji tutaj. </a>
+				<h3 class="article__subtitle">Moje hobby to <i>autobusy, tramwaje i pociągi</i></h3>
+				<p class="article__description">Od dziecka te sprzęty mnie pasjonowały. <a class="article__description--link article__description--link--js" href="komunikacja.html">Więcej o
+						komunikacji tutaj. </a>
 
 
-					<h3 class="h3">Jeździć rowerem</h3>
-					<p class="p">Lubię jeździć zarówno w mieście jak i poza nim. Często jeżdżę z synem. Teraz jeździ już szybciej
+					<h3 class="article__subtitle">Jeździć rowerem</h3>
+					<p class="article__description">Lubię jeździć zarówno w mieście jak i poza nim. Często jeżdżę z synem. Teraz jeździ już
+						szybciej
 						niż ja.
 						Lubimy przy pomocy roweru poznawać nowe miasta.</p>
-					<h3 class="h3">Jeździć samochodem</h3>
-					<p class="p">To była i jest moja pasja od dawna od małego. Lubię jeździć. Jeżdżę dużo i od wielu lat. Mój
+					<h3 class="article__subtitle">Jeździć samochodem</h3>
+					<p class="article__description">To była i jest moja pasja od dawna od małego. Lubię jeździć. Jeżdżę dużo i od wielu
+						lat. Mój
 						pierwszy
 						samochód kupiłem po maturze. ,<br> Był to Trabant 601 zwany przez moich kolegów z roku Fordem
 						Cartonem.
 						Kiedyś
 						nawet chciałem być kierowcą autokaru. Moja żona mówi, że jeżdżę trochę za szybko.</p>
-					<h3 class="h3">Jeździć hulajnogą</h3>
-					<p class="p">To mój najnowszy sprzęt jeżdżący. Syn mnie zachęcił. W tym roku jeździłem bardzo mało. Fajnie się
+					<h3 class="article__subtitle">Jeździć hulajnogą</h3>
+					<p class="article__description">To mój najnowszy sprzęt jeżdżący. Syn mnie zachęcił. W tym roku jeździłem bardzo mało.
+						Fajnie się
 						jeździ
 						gorzej naprawia. Zmiana dętki to nie jest już taka prosta sprawa jak w rowerze.</p>
-					<h3 class="h3">Majsterkować (majstrować)</h3>
-					<p class="p">Czyli robić to co się da w domu i przy domu. Co prawda nie umiem murować ale niedawno nauczyłem
+					<h3 class="article__subtitle">Majsterkować (majstrować)</h3>
+					<p class="article__description">Czyli robić to co się da w domu i przy domu. Co prawda nie umiem murować ale niedawno
+						nauczyłem
 						się
 						spawać.
 						Ma sporo narzędzi a w kuchni najlepiej ni wychodzi robienie szafek.</p>
-					<h3 class="h3">Bawić się z moim psem</h3>
-					<p class="p">Dokładniej to ona. Jest owczarkiem niemieckim. To łagodne ale i uparte stworzenie, które nie lubi
+					<h3 class="article__subtitle">Bawić się z moim psem</h3>
+					<p class="article__description">Dokładniej to ona. Jest owczarkiem niemieckim. To łagodne ale i uparte stworzenie,
+						które nie lubi
 						kotów.
 						Goni również bażanty i sarny. Za to bardzo lubi jeździć samochodem, zabawy biegowe i grę w
 						piłkę.
 						Lubi też
 						podkradać mi narzędzia i rękawice.</p>
-					<h3 class="h3">I jeszcze muzyka</h3>
-					<p class="p">Moje klimaty to Kult, T-Love, Strachy na Lachy, Kaczmarski, Big-Cyc, Lao-che. W majowy weekend w
+					<h3 class="article__subtitle">I jeszcze muzyka</h3>
+					<p class="article__description">Moje klimaty to Kult, T-Love, Strachy na Lachy, Kaczmarski, Big-Cyc, Lao-che. W majowy
+						weekend w
 						Trójce była
 						kolejna edycja Polski Top Wszechczasów i to była muza.</p>
 			</article>
-		</section>
-		<section id="pamietnik">
-
-			<h2 class="h2">Nauka frontendu z WTF</a></h2>
-			<h3 class="h3">Dlaczego kurs <a class="h3-a" href="https://cotenfrontend.pl"> WTF</a></h3>
-			<p class="p">Bo to kurs a nie szkolenie. Ludzie mówią, że to najlepszy kurs no i spotkałem Kosana w Warszawie na
+			<article class="article article3--js">
+			<h2 id="nauka_wtf" class="article__title">Nauka frontendu z WTF</a></h2>
+			<h3 class="article__subtitle">Dlaczego kurs <a class="article__subtitle--link" href="https://cotenfrontend.pl"> WTF</a></h3>
+			<p class="article__description">Bo to kurs a nie szkolenie. Ludzie mówią, że to najlepszy kurs no i spotkałem Kosana w
+				Warszawie na
 				konferencji DNA. </p>
 
-			<h3 class="h3">Chcę się nauczyć </h3>
-			<p class="p">Bo dotychczas zawodowo nie programowałem we frontendzie a jestem ciekawy czy lepiej tu czy w backendzie.
+			<h3 class="article__subtitle">Chcę się nauczyć </h3>
+			<p class="article__description">Bo dotychczas zawodowo nie programowałem we frontendzie a jestem ciekawy czy lepiej tu czy w
+				backendzie.
 			</p>
 
-			<h3 class="h3">Chcę stworzyć</h3>
-			<p class="p">Już po stworzeniu strony domowej planuję stworzyć aplikację webową do obsługi uczestników takiego zlotu młodzieży. Czyli aplikacja CRUD łącząca się z bazą
+			<h3 class="article__subtitle">Chcę stworzyć</h3>
+			<p class="article__description">Już po stworzeniu strony domowej planuję stworzyć aplikację webową do obsługi uczestników
+				takiego zlotu młodzieży. Czyli aplikacja CRUD łącząca się z bazą
 				danych.</p>
 
-			<h3 class="h3">Dziennik nauki</h3>
-			<p class="p">Tutaj będę dzielił się z Tobą ważnymi informacjami i wnioskami z tego kursu. <a class="p-a"href="dziennik.html">Przejdź do dziennika</a></p>
+			<h3 class="article__subtitle">Dziennik nauki</h3>
+			<p class="article__description">Tutaj będę dzielił się z Tobą ważnymi informacjami i wnioskami z tego kursu. <a class="article__description--link"
+					href="dziennik.html">Przejdź do dziennika</a></p>
 
-
+			</article>
 		</section>
 
 
 	</main>
 	<footer class="footer">
-		Strona domowa Marcina Romaniuka. Stworzona w ramach kursu WTF. <a class="footer-a"href="#page-top"> Powrót na górę</a>
+		Strona domowa Marcina Romaniuka. Stworzona w ramach kursu WTF. <a class="footer__link" href="#page-top"> Powrót na
+			górę</a>
 	</footer>
 	<script src="main.js"> </script>
 </body>

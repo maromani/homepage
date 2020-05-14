@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona Romana</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Strona Romana</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-    <header class="main-header" id="page-top">
-		<nav>
-            <a class="a" href="index.html">Strona główna</a>
-			<a class="a" href="dziennik.html">Dziennik nauki</a>
-			<a class="a" href="komunikacja.html">Komunikacja publiczna</a>
-		</nav>
-	</header>
-	<main>
-		<header >
-			<h1 class="h1"> Dziennik nauki frontendu z <a class="h1-a" href="https://cotenfrontend.pl">  WTF </a></h1>
-			
-		</header>
-		<section>
-			
-			<h2 class="h2">Ważne informacje i złote myśli </h2>
-            <p class="p">Tutaj będzie się rozwijał taki materiał z najważniejszymi materiałami z każdego tygodnia </p>
-            <h2 class="h2">To co najważniejsze w każdym tygodniu</h2>
-			<h3 class="h3">Tydzień 2</h3>
-			<p class="p">terala lala 2</p>
-			<h3 class="h2">Tydzień 3</h3>
-			<p class="p">terala lala 3</p>
-			<h3 class="h2">Tydzień 4</h3>
-			<p class="p">terala lala 4</p>
-			<h3 class="h2">Tydzień 5</h3>
-			<p class="p">terala lala 5</p>
-		</section>
-	
+  <body class="body">
+    <header  id="page-top">
+      <nav class="navigation">
+        
+          <a class="navigation__link " href="index.html">Strona główna</a>
+          <a class="navigation__link navigation__link--current" href="dziennik.html">Dziennik nauki</a>
+          <a class="navigation__link t" href="komunikacja.html">Komunikacja publiczna</a>
+        
+      </nav>
+    </header>
+    <main>
+      <header>
+        <h1 class="header">
+          Dziennik nauki frontendu z
+          <a class="header__link" href="https://cotenfrontend.pl"> WTF </a>
+        </h1>
+      </header>
+      <section>
+        <article class="article">
+        <h2 class="article__title">Ważne informacje z kursu</h2>
+        <p class="article__description">
+          Tutaj będzie dodawał ważne informacje i linki 
+          z każdego tygodnia
+        </p>
+      </article>
+      <article class="article">
+        <h2 class="article__title"> To co najważniejsze w każdym tygodniu</h2>
+        <p class="article__description">
+          Tutaj będę opisywał to co jest najwazniejsze do zapamiętania z każdego tygodnia
+        </p>
+        <h3 class="article__subtitle">Tydzień 2</h3>
+        <p class="article__description">terala lala 2</p>
+        <h3 class="article__subtitle">Tydzień 3</h3>
+        <p class="article__description">terala lala 3</p>
+        <h3 class="article__subtitle">Tydzień 4</h3>
+        <p class="article__description">terala lala 4</p>
+        <h3 class="article__subtitle">Tydzień 5</h3>
+        <p class="article__description">terala lala 5</p>
+      </article>
+      </section>
     </main>
     <footer class="footer">
-		Strona domowa Marcina Romaniuka. Stworzona w ramach kursu WTF. <a class="footer-a"href="#page-top"> Powrót na górę</a>
-	</footer>
-
-</body>
-
+      Strona domowa Marcina Romaniuka. Stworzona w ramach kursu WTF.
+      <a class="footer__link" href="#page-top"> Powrót na górę</a>
+    </footer>
+  </body>
 </html>
