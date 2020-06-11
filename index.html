@@ -5,42 +5,49 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Strona Romana</title>
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="body">
-	<header  id="page-top">
-		<nav class="navigation">
+	<header  class = "header" id="page-top">
+		<nav class="navigation navigation--js">
 			
 				<a class="navigation__link navigation__link--current" href="index.html">Strona główna</a>
 				<a class="navigation__link" href="dziennik.html">Dziennik nauki</a>
+				<a class="navigation__link" href="dziennik_grid.html">Dziennik nauki w gridzie</a>
 				<a class="navigation__link" href="komunikacja.html">Komunikacja publiczna</a>
+				<a class="navigation__link" href="komunikacja_grid.html">Komunikacja publiczna w gridzie</a>
 			
 		</nav>
+		<button class="hamburger hamburger--js" >Menu </button>
 	</header>
-	<main>
+	<main class="main">
 		<header>
-			<h1 class="header"> To strona domowa Marcina Romaniuka robiona w ramach kursu WTF. <a class="header__link"
+			<h1 class="header header--js "> To strona domowa Marcina Romaniuka robiona w ramach kursu WTF. <a class="header__link"
 					href="#nauka_wtf"> Tu więcej o WTF </a>
 			</h1>
+			<button class=" action__button1--js" >Zmień nagłówek  </button>
 
 		</header>
 		<section>
-			<article class="article__main article__main--js">
+			<article class="article article__main article__main--js">
+			<img class="article__img" src="img\autor1.jpg" alt="autor">	
+			<div class="div1">
 			<h2 class="article__title"> Kim jestem</h2>
 			<p class="article__description"> Szczęśliwym mężem i tatą. Mieszkam pod Lublinem wraz z żoną, synem i mieszka z nami jeszcze
 				sunia Stefa. <br>
-				
-				<img class="article__img" src="img\autor.jpg" alt="autor">
-				
 			</p>
-			</article>	
-			<article class="article article1--js">
-			<h2 class="article__title">Gdzie pracuję</h2>
-			<p class="article__description">Na co dzień pracuję w IT <b>od 20 lat</b>. Zaczynałem jako programista SQL. <br>
+			
+				<h2 class="article__title">Gdzie pracuję</h2>
+				<p class="article__description">Na co dzień pracuję w IT <b>od 20 lat</b>. Zaczynałem jako programista SQL. <br>
 				Teraz jestem odpowiedzialny za wdrożenia systemów.</p>
-			</article>
-			<article class=" article article2--js">
+			</div>	
+			
+			</article>		
+			
+			<div class="grid">
+			<article class=" article article2--js grid__element1">
 				<h2 class="article__title">Co lubię robić poza pracą</h2>
 
 				<h3 class="article__subtitle">Moje hobby to <i>autobusy, tramwaje i pociągi</i></h3>
@@ -80,14 +87,10 @@
 						piłkę.
 						Lubi też
 						podkradać mi narzędzia i rękawice.</p>
-					<h3 class="article__subtitle">I jeszcze muzyka</h3>
-					<p class="article__description">Moje klimaty to Kult, T-Love, Strachy na Lachy, Kaczmarski, Big-Cyc, Lao-che. W majowy
-						weekend w
-						Trójce była
-						kolejna edycja Polski Top Wszechczasów i to była muza.</p>
+					
 			</article>
-			<article class="article article3--js">
-			<h2 id="nauka_wtf" class="article__title">Nauka frontendu z WTF</a></h2>
+			<article class="article article3--js grid__element1">
+			<h2 id="nauka_wtf" class="article__title">Nauka frontendu z WTF z muzą w tle</a></h2>
 			<h3 class="article__subtitle">Dlaczego kurs <a class="article__subtitle--link" href="https://cotenfrontend.pl"> WTF</a></h3>
 			<p class="article__description">Bo to kurs a nie szkolenie. Ludzie mówią, że to najlepszy kurs no i spotkałem Kosana w
 				Warszawie na
@@ -106,14 +109,25 @@
 			<h3 class="article__subtitle">Dziennik nauki</h3>
 			<p class="article__description">Tutaj będę dzielił się z Tobą ważnymi informacjami i wnioskami z tego kursu. <a class="article__description--link"
 					href="dziennik.html">Przejdź do dziennika</a></p>
+			
+			<h3 class="article__subtitle">A wszystko to z muzyką w tle</h3>
+			<p class="article__description">Moje klimaty to Kult, T-Love, Strachy na Lachy, Kaczmarski, Big-Cyc, Lao-che. W majowy
+						weekend w
+						Trójce była
+						kolejna edycja Polski Top Wszechczasów i to była muza.</p>
 
 			</article>
+
+			</div>
 		</section>
 
 
 	</main>
 	<footer class="footer">
-		Strona domowa Marcina Romaniuka. Stworzona w ramach kursu WTF. <a class="footer__link" href="#page-top"> Powrót na
+		Strona domowa Marcina Romaniuka. Stworzona w ramach kursu WTF. 
+		<div> Chcesz się ze mną skontaktować <a class="navigation__link" href="kontakt.html">wypełnij formularz</a> 
+		</div>
+		<a class="footer__link" href="#page-top"> Powrót na
 			górę</a>
 	</footer>
 	<script src="main.js"> </script>

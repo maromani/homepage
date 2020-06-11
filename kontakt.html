@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz kontaktowy</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="body body__form">
+    <main>
+      <h1 class="header">Formularz zgłoszeniowy</h1>
+      <form method="POST" action="https://dev.cotenfrontend.pl" class="form">
+        <p>
+          <label>
+            Imię:
+            <input class="form__item" required  id="FirstName" type="text" placeholder="Podaj swoje Imię" value="" name="FirstName">
+          </label>
+        </p>
+        <p> 
+          <label>
+            Nazwisko:
+            <input
+            class="form__item" required id="Name" type="text" placeholder="Podaj swoje Nazwisko" value="" name="Name">
+          </label>
+        </p>
+
+        <p> 
+          <label>
+            Zagadka:
+            <input
+            class="form__item" required id="riddle" type="text" placeholder="Podaj swoje Nazwisko" value="" name="riddle">
+          </label>
+        </p>
+
+        <p> 
+          <label>
+            Wiek:
+            <input
+            class="form__item" id="Age" type="text" placeholder="Podaj swój wiek" required pattern="[0-9]{1,2}" name="Age">
+          </label>
+        </p>
+      
+        
+        <fieldset>
+            <legend>Preferowany sposób kontaktu</legend>
+            <p>
+                <label> <input class="form__item" name="contact" checked type="radio" value="e-mail">  E-mail </label>
+                <label> <input class="form__item" name="contact" type="radio" value="telephone">  Telefon </label>
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Zgoda na kontakt</legend>
+            <p>
+                <label> <input class="form__item" name="agree" checked type="checkbox" value="Tak">  Zgoda na kontakt </label>
+                
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+          <legend> Kontakt </legend>
+          <p> 
+            <label>
+              Nr telefonu:
+              <input
+              class="form__item" id="Phone" type="tel" placeholder="Podaj numer telefonu" value="" name="Phone">
+            </label>
+          </p>
+          <p> 
+            <label>
+              E-mail:
+              <input
+              class="form__item" id="email" type="email" placeholder="Podaj swój mail" value="" name="Email">
+            </label>
+          </p>
+
+        </fieldset>
+        
+        <p> 
+          <label>
+            Hasło:
+            <input
+            class="form__item" id="password" type="password" placeholder="Podaj hasło do kontaktu" value="" name="Password">
+          </label>
+        </p>
+        <p> 
+          <label>
+            Zdjęcie:
+            <input
+            class="form__item" id="image" type="file" placeholder="Dodaj swoje zdjęcie" value="" name="File">
+          </label>
+        </p>
+        <p> 
+          <label>
+            Współpraca:
+            <input
+            class="form__item" id="cooperation" type="range" name="Cooperation" min="1" max="10" step="1" value="1">
+          </label>
+        </p>
+       
+        <p> 
+          <label>
+            Język:
+            <select class="form__item" requaied id="language" type="select"  name="language" >
+              <option value = "lang1"> Polski </option>
+              <option value = "lang2"> Angielski </option>
+            </select>
+          </label>
+        </p>
+        <p> 
+          <label>
+            Doświadczenie:
+            <textarea class="form__item" id="experiance"  name="experiance" > Moje doświadczenie .....</textarea>
+          </label>
+        </p>
+
+        <p> 
+          <input class="form__item" type="submit"  value="Wyślij zgłoszenie">
+
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
